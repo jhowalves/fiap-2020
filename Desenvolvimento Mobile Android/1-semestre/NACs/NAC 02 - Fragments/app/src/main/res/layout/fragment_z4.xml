@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BMW Z4"
+        android:padding="20dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="257dp"
+        app:srcCompat="@drawable/bmw_z4" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textSize="15dp"
+        android:text="Quando o teto se abre totalmente, eis o momento em que não existem mais limites para o seu prazer de dirigir, no novo BMW Z4. Um roadster que não poderia ser melhor: aberto, esportivo e sem compromissos. Exibindo uma poderosa dinâmica ao dirigir e um design evolutivo, ele tem apenas um objetivo: a liberdade, entre as pistas e o céu aberto."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="O conceito do modelo Z4 está firmemente voltado para a agilidade e a dinâmica ao dirigir."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18dp"/>
+
+</LinearLayout>

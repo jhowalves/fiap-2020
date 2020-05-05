@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_padrao">16dp</dimen>
+    <dimen name="rdg_margin_vertical">8dp</dimen>
+    <dimen name="txt_resultado_font_size">24sp</dimen>
+    <dimen name="txt_padrao">18sp</dimen>
+</resources>

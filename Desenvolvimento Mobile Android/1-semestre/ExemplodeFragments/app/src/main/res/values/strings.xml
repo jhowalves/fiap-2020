@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Exemplo de Fragments</string>
+    <string name="fragment_01">Fragment 01</string>
+    <string name="fragment_02">Fragment 02</string>
+    <string name="fragment_03">Fragment 03</string>
+    <string name="abrir_exemplo_de_fragments">Abrir exemplo de fragments</string>
+    <string name="um_banner_de_exemplo">Um banner de exemplo</string>
+</resources>

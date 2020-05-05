@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@color/cinza_claro"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_padrao"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        style="@style/MeuTextView"
+        android:text="@string/informe_o_material_que_deseja"/>
+
+    <RadioGroup
+        android:id="@+id/rdgOpcoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/rdg_margin_vertical">
+        
+        <RadioButton
+            android:checked="true"
+            android:id="@+id/rdbPisoBranco"
+            style="@style/MeuRadioButton"
+            android:text="@string/piso_branco_baixo_brilho"/>
+
+        <RadioButton
+            android:id="@+id/rdbPisoAlbania"
+            style="@style/MeuRadioButton"
+            android:text="@string/piso_albania_45_x_45"/>
+
+        <RadioButton
+            android:id="@+id/rdbPorcelanato"
+            style="@style/MeuRadioButton"
+            android:text="@string/porcelanato_perlato_branco"/>
+
+        <RadioButton
+            android:id="@+id/rdbRevestimento"
+            style="@style/MeuRadioButton"
+            android:text="@string/revestimento_mosaico" />
+
+    </RadioGroup>
+
+    <TextView
+        style="@style/MeuTextView"
+        android:text="@string/informe_a_medida_em_m2"/>
+
+    <EditText
+        android:id="@+id/edtM2"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="10"/>
+
+    <CheckBox
+        android:id="@+id/chkUltraFrete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ultra_frete_mega_rapido"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="calcular"
+        android:text="@string/calcular" />
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="@dimen/txt_resultado_font_size"/>
+
+</LinearLayout>

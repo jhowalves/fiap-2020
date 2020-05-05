@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NACO1 - Modelo 01</string>
+    <string name="imagem_anterior">Imagem anterior</string>
+    <string name="proxima_imagem">Próxima imagem</string>
+</resources>

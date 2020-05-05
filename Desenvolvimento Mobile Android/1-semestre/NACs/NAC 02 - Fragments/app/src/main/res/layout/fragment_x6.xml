@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BMW X6"
+        android:padding="20dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="257dp"
+        app:srcCompat="@drawable/bmw_x6" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textSize="15dp"
+        android:text="Incomparável e não conformista – o novo BMW X6 representa uma assertividade provocadora. Isso é particularmente evidente na carroceria extremamente esportiva e com novo e distinto conceito de design, demonstrado por tecnologias visionárias e absolutamente exclusivas, como a impressionante grade BMW Iconic Glow’. Tudo isso aponta para um fato: o domínio absoluto que o novo BMW X6 demonstra em cada percurso, graças ao potente motor, à precisão da suspensão e equipamentos. Experimente uma forma totalmente nova de superar as expectativas com o novo BMW X6."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="O novo BMW X6 polariza e provoca. Como primeiro no seu gênero, o X6 representa mais do que nunca uma personalidade única e confiante."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18dp"/>
+
+</LinearLayout>

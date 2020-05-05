@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BMW M5"
+        android:padding="20dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="257dp"
+        app:srcCompat="@drawable/bmw_m5" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textSize="15dp"
+        android:text="Criado para oferecer emoção e elegância. Mais potente do que nunca. A nova geração do BMW M5 é a afirmação da suprema excelência da engenharia e da condução inovadora e inteligente para o levar a uma dimensão inimaginável. Repleto de tecnologias de topo que tornam a rotina do dia-a-dia mais segura e mais confortável. O inovador sistema de tração integral M xDrive do novo BMW M5, com o seu motor de 600 cv transforma o condutor num piloto seguro de um sedã esportivo de alto desempenho com uma incrível potência, precisão e agilidade – um novo nível do puro prazer de dirigir M."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="A sensação de dirigir o novíssimo BMW M5 com M xDrive é a mesma de guiar um carro de tração traseira – porém com tração adicional."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18dp"/>
+
+</LinearLayout>

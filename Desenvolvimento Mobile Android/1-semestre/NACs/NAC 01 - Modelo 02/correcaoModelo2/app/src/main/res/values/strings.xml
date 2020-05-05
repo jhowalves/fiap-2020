@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NAC 01 - Modelo 02</string>
+    <string name="informe_o_material_que_deseja">Informe o material que deseja:</string>
+    <string name="piso_branco_baixo_brilho">Piso Branco Baixo Brilho</string>
+    <string name="piso_albania_45_x_45">Piso Albania 45 x 45</string>
+    <string name="porcelanato_perlato_branco">Porcelanato Perlato Branco</string>
+    <string name="revestimento_mosaico">Revestimento mosaico</string>
+    <string name="informe_a_medida_em_m2">Informe a medida em m2</string>
+    <string name="ultra_frete_mega_rapido">Ultra frete mega rápido</string>
+    <string name="calcular">Calcular</string>
+</resources>

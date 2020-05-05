@@ -1,0 +1,6 @@
+
+
+
+
+--> Iniciar o servidor localhost
+php -S localhost:80
