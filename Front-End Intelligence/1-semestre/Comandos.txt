@@ -1,4 +1,22 @@
+--> Consultar versão
+ng --version
 
+--> Criar novo projeto
+ng new nome_projeto
 
 --> Iniciar servidor localhost
-ng server
+ng serve // ng serve --open
+
+--> Crie um módulo para os nossos componentes de layout:
+ng g module layout
+
+--> Crie um componente para o header dentro do módulo "layout" que acabamos de criar:
+ng g component layout/inside-header
+
+--> Agora crie um componente para o footer, dentro também do módulo "layout":
+ng g component layout/inside-footer
+
+--> Agora crie um componente para unir nosso layout, dentro também do módulo "layout":
+ng g component layout/inside-layout
+
+
